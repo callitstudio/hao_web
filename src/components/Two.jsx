@@ -129,7 +129,7 @@ const Two = () => {
               <div>
                 <div className="text-gray-500 text-xs sm:text-sm">Phone:</div>
                 <div className="text-gray-900 font-semibold text-sm sm:text-base">
-                  +236 (456) 896 22
+                  +92 336 4304928
                 </div>
               </div>
             </div>

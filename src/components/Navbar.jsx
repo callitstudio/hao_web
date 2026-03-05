@@ -114,22 +114,22 @@ const Navbar = () => {
                 <span className="inline-flex h-3.5 w-3.5">
                   <img src="mail.svg" alt="mail" />
                 </span>
-                <span>support@aidus.com</span>
+                <span>humanityallianceorganization@gmail.com</span>
               </div>
               <div className="flex items-center gap-2 opacity-90">
                 <span className="inline-flex h-3.5 w-3.5">
                   <img src="phone.svg" alt="phone" />
                 </span>
-                <span>+88 7869 5874 96</span>
+                <span>+92 336 4304928</span>
               </div>
             </div>
 
             <div className="hidden md:flex items-center gap-2 bg-gray-300/20 text-white rounded-full px-3 py-1.5">
               <span className="text-[12px] font-medium">Follow Us :</span>
-              <span className="h-5 w-5 rounded-full"><img src="fb.svg" alt="" /></span>
-              <span className="h-5 w-5 rounded-full"><img src="link.svg" alt="" /></span>
-              <span className="h-5 w-5 rounded-full"><img src="insta.svg" alt="" /></span>
-              <span className="h-5 w-5 rounded-full"><img src="vvv.svg" alt="" /></span>
+              <a href="https://www.facebook.com/share/1MSFVsQgt9/" target="_blank" rel="noopener noreferrer"><span className="h-5 w-5 rounded-full"><img src="fb.svg" alt="" /></span></a>
+              {/* <span className="h-5 w-5 rounded-full"><img src="link.svg" alt="" /></span> */}
+              <a href="https://www.instagram.com/humanityallianceorganization?igsh=MTExbzU4Zm1nMHozZw==" target="_blank" rel="noopener noreferrer"><span className="h-5 w-5 rounded-full"><img src="insta.svg" alt="" /></span></a>
+              {/* <span className="h-5 w-5 rounded-full"><img src="vvv.svg" alt="" /></span> */}
             </div>
           </div>
         </div>

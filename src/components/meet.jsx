@@ -1,9 +1,9 @@
 import { FaShareAlt } from "react-icons/fa";
 
-import leslie from "../assets/leslie.jpg";
-import joshua from "../assets/joshua.jpg";
-import ken from "../assets/ken.jpg";
-import lillian from "../assets/lillian.jpg";
+import uzair from "../assets/uzair.jpeg";
+import tayyaba from "../assets/tayyaba.jpeg";
+import tehreem from "../assets/tehreem.jpeg";
+// import lillian from "../assets/lillian.jpg";
 
 export default function Meet() {
   return (
@@ -15,10 +15,10 @@ export default function Meet() {
 
       <div className="card-wrapper">
         {[
-          { img: leslie, name: "Leslie Alexander", role: "CEO & Boss" },
-          { img: joshua, name: "Joshua Nunnelly", role: "Volunteer" },
-          { img: ken, name: "Ken William", role: "Team Leader" },
-          { img: lillian, name: "Lillian Lewis", role: "Support Leader" },
+          { img: uzair, name: "Uzair Rahseed", role: "Founder" },
+          { img: tayyaba, name: "Tayyaba", role: "President" },
+          { img: tehreem, name: "Tehreem", role: "Vice President" },
+          // { img: lillian, name: "Lillian Lewis", role: "Support Leader" },
         ].map((member, index) => (
           <div className="card" key={index}>
             <img src={member.img} alt={member.name} />

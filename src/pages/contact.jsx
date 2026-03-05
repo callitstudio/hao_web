@@ -1,6 +1,6 @@
 import styles from "./contact.module.css";
 import Header from "../components/header.jsx";
-import map from "../assets/map.png";
+// import map from "../assets/map.png";
 import Homebar from "../components/homebar.jsx";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
@@ -24,8 +24,8 @@ export default function Contact() {
           <div>
             <h3>Address Line</h3>
             <p>
-              Bowery St, New York, NY 10013, USA <br />
-              NY 10013,USA
+              24 Griffin canal Road, <br />
+              Lahore
             </p>
           </div>
         </div>
@@ -34,11 +34,11 @@ export default function Contact() {
           <FaPhoneAlt className={styles.icon} />
           <div>
             <h3>Phone Number</h3>
-            <p>+ 1255 - 568 - 6523 4374-221</p>
+            <p>+92 336 4304928</p>
             <p>
-              <span className={styles.number}>
+              {/* <span className={styles.number}>
                 + 1255 - 568 - 6523 4374-221
-              </span>
+              </span> */}
             </p>
           </div>
         </div>
@@ -47,8 +47,8 @@ export default function Contact() {
           <FaEnvelope className={styles.icon} />
           <div>
             <h3>Email Address</h3>
-            <p>Contact@fakemail.Com</p>
-            <p>Info@fakemail.Com</p>
+            <p>humanityallianceorganization@gmail.com</p>
+            {/* <p>Info@fakemail.Com</p> */}
           </div>
         </div>
 
@@ -86,9 +86,9 @@ export default function Contact() {
             
           </form>
           </div>
-          <div className={styles.map}>
+          {/* <div className={styles.map}>
           <img src={map} alt="World Map"/>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

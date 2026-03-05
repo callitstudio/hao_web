@@ -25,7 +25,7 @@ const Header = () => {
             </span>
             <div>
               <strong>Opening Hours</strong>
-              <p>Mon - Sat: 08.00 to 18.00</p>
+              <p>Mon - Sat: 10:00AM to 06:00PM</p>
             </div>
           </div>
           <div className="info-box">
@@ -34,7 +34,7 @@ const Header = () => {
             </span>
             <div>
               <strong>Our Address</strong>
-              <p>Broom St New York, USA</p>
+              <p>24 Griffin canal Road, Lahore</p>
             </div>
           </div>
           <div className="info-box">
@@ -43,7 +43,7 @@ const Header = () => {
             </span>
             <div>
               <strong>Contact Us</strong>
-              <p>(567) 555-0100</p>
+              <p>+92 336 4304928</p>
             </div>
           </div>
         </div>

@@ -31,16 +31,16 @@ const Footer = () => {
             of those in need through various humanitarian, Peds efforts.
           </p>
           <div className="social-icons">
-            <a href="#">
+            <a href="https://www.facebook.com/share/1MSFVsQgt9/">
               <FaFacebookF />
             </a>
-            <a href="#">
+            {/* <a href="#">
               <FaLinkedinIn />
             </a>
             <a href="#">
               <FaPinterest />
-            </a>
-            <a href="#">
+            </a> */}
+            <a href="https://www.instagram.com/humanityallianceorganization?igsh=MTExbzU4Zm1nMHozZw==">
               <FaInstagram />
             </a>
           </div>

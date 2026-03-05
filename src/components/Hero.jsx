@@ -61,7 +61,7 @@ const Hero = () => {
                 <div>
                   <p className="text-white text-xs sm:text-sm">Call Us Now</p>
                   <p className="text-white font-semibold text-xs sm:text-sm">
-                    +025 757 576 560
+                    +92 336 4304928
                   </p>
                 </div>
               </div>
